@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Get Started</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" action="index2.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phone</div>
+            <input type="text" name="email" placeholder="abc@gmail.com">
+            <div id="email_error">Please fill up your Email and Phone</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Please fill your Password</div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
